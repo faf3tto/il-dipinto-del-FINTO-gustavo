@@ -1,0 +1,29 @@
+{
+  "default": [
+    [25, "null"],
+    [10, "crowbar"],
+    [10, "money"],
+    [10, "glue"],
+    [10, "caciocavallo"],
+    [5, "camera"],
+    [5, "mantle"],
+    [0.65, "capricorno"],
+    [0.5, "trappola"],
+    [0.4, "harpoon"],
+    [0.4, "panic"],
+    [0.25, "patatine"],
+    [1.5, "coccia"]
+  ],
+  "firebird": [
+    [25, "null"],
+    [10, "crowbar"],
+    [10, "money"],
+    [10, "glue"],
+    [10, "caciocavallo"],
+    [5, "camera"],
+    [5, "mantle"],
+    [2, "coccia"],
+    [1.5, "estintore"]
+  ]
+}
+

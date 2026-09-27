@@ -1,0 +1,25 @@
+{
+    "hand": " ",
+    "money": "dollar'euro:\n\n (CLICK SINISTRO) per aggiungere i soldi al tuo portafoglio",
+    "crowbar": "Piede di porco:\n\n salo su una finestra con (E) per romperla e passare attraverso",
+    "puzzle": "Pezzo di puzzle:\n\n aggiungi il pezzo del puzzle al dipinto con (E)",
+    "dixy": "Dixy fruttoso:\n\n Bevilo con (CLICK SINISTRO) per ricaricare la tua stamina del doppio",
+    "patatine": "Patatine Stick:\n\n Mangiale con (CLICK SINISTRO) per ricaricare la tua stamina del triplo",
+    "glue": "Colla vinvil:\n\n (CLICK SINISTRO) per posizionarlo e intrappolare i nemici a terra",
+    "trappola": "Trappola per orsi:\n\n (CLICK SINISTRO) per posizionarla e intrappolare i nemici a terra per un lungo periodo di tempo",
+    "caciocavallo": "Caciocavallo:\n\n (CLICK SINISTRO) per posizionarlo e attirare l'attenzione del nemico",
+    "coccia": "Chiave coccia:\n\n (CLICK SINISTRO) su una serratura per romperla e sbloccare la porta",
+    "camera": "Camera termorifrangente:\n\n (CLICK SINISTRO) per vedere oltre i muri per 20 secondi",
+    "mantle": "Mantello dell'invisibilità:\n\n (CLICK SINISTRO) per diventare invisibile per 12 secondi",
+    "portal1": "PortalGun:\n\n premi (CLICK SINISTRO) per generare un portale arancione; se ci sono due portali nella mappa, potrai spostarti tra di essi",
+    "portal2": "PortalGun:\n\n premi (CLICK SINISTRO) per generare un portale blu; se ci sono due portali nella mappa, potrai spostarti tra di essi",
+    "grammofon": "Grammofono:\n\n (CLICK SINISTRO) per posizionare il grammofono sul pavimento. Il grammofono emette rumore e attira Gustavo, utile per aprire le porte reali",
+    "estintore": "Estintore:\n\n (CLICK SINISTRO) sul fuoco per spegnerlo",
+    "pugno": "Pugnorocchio:\n\n (CLICK SINISTRO) su una porta reale per romperla",
+    "capricorno": "Capricorno Rilegato:\n\n usalo su un muro crepato con (E) per distruggerlo",
+    "harpoon": "Arpione stantio:\n\n (CLICK SINISTRO) per agganciarti al primo muro davanti a te e sprintare in quella posizione",
+    "ghiacciale": "Ghiacciale:\n\n (CLICK SINISTRO) su un'entità per congelarla; l'entità potrà quindi essere trascinata e si scongelerà dopo 2 minuti",
+    "panic": "Bottone del panico:\n\n (CLICK SINISTRO) per randomizzare le posizioni delle entità nemiche, un'ultima rischiosa salvezza",
+    "dipintomobile": "Dipinto Mobile:\n\n (CLICK SINISTRO) per piazzare un trepiedi, un'altra posizione da cui poter continuare il dipinto "
+
+}

@@ -1,0 +1,205 @@
+{
+    "c2array": true,
+    "size": [
+        3,
+        21,
+        1
+    ],
+    "data": [
+        [
+            [
+                "inventario"
+            ],
+            [
+                "spawn di oggetti"
+            ],
+            [
+                "sync prendere oggetti"
+            ],
+            [
+                "Porte"
+            ],
+            [
+                "primo nemico funzionante"
+            ],
+            [
+                "funzione di morte"
+            ],
+            [
+                "funzione di revive"
+            ],
+            [
+                "puzzle"
+            ],
+            [
+                "oggetti"
+            ],
+            [
+                "Mappa"
+            ],
+            [
+                "OGGETTI MAPPA"
+            ],
+            [
+                "nemici iniziali"
+            ],
+            [
+                "completamento gioco"
+            ],
+            [
+                "musiche nelle zone"
+            ],
+            [
+                "decorazioni e interazioni"
+            ],
+            [
+                "personaggi selezionabili\ne acquisto emoticon"
+            ],
+            [
+                "MENU INIZIALE"
+            ],
+            [
+                "COMPLIMENTI"
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "fare un'inventario funzionante e modulare, che compare a inizio game e si possa scegliere quanti slot debbano esserci (questo per il futuro per i vari personaggi che hanno differenze di slot)"
+            ],
+            [
+                "fare la funzione di spawn oggetti con id custom personalizzata con array, in modo da poi poterla sincronizzare in multiplayer per ogni oggetto spawnato, e con degli id propri e non usando gli UID di gioco"
+            ],
+            [
+                "sincronizzare la funzione di prendere gli oggetti spawnati e farli despawnare per gli altri player"
+            ],
+            [
+                "fai e sincronizza la funzione delle porte del gioco"
+            ],
+            [
+                "fai e sincronizza il primo nemico gustavo in modo corretto, "
+            ],
+            [
+                "puoi morire, fai che nel multiplayer, se muori puoi spectare in carosello tutti i giocatori"
+            ],
+            [
+                "fai in modo che puoi essere riportato in vita"
+            ],
+            [
+                "fai la funzione di riempimento del dipinto e che si sbloccano le porte"
+            ],
+            [
+                "fai tutte le funzioni degli oggetti, syncate e funzionanti"
+            ],
+            [
+                "fai tutta la prima parte della mappa presa dal vecchio gioco"
+            ],
+            [
+                "aggiungi tutti i modelli e le decorazioni riguardanti gli oggetti della mappa. e fai funzionare i distributori"
+            ],
+            [
+                "aggiungi i nemici come dal vecchio gioco: mr morte, fresco con la slot, canerino, pane, il nano, mostro di carne"
+            ],
+            [
+                "fai in modo che il gioco possa essere finito, e in base alla run, sia vittoria che sconfitta, ti faccia un resoconto della partita, con i digitalcardus guadagnati, e ti riporti al desktop"
+            ],
+            [
+                "inserire tutta la funzione di switch musica di zone e le musiche nelle zone"
+            ],
+            [
+                "aggiungi dipinti in giro con cazzate, poi npc con dialoghi in giro con tutta la funzione fatta per bene"
+            ],
+            [
+                "funzione di selezionamento e salvataggio personaggio selezionato\naggiungi 4 personaggi comprabili nello shop: Carciofo, Cacitiello, Gigantio, Roberto Maligni"
+            ],
+            [
+                "Aggiungi il menu di avvio gioco con il pc dove sta il titolo animato e toccando sul\n pc si zoomma e poi ti apre la schermata del pc."
+            ],
+            [
+                "adesso hai la base completa e controllabile di un fantastico gioco con tantissime possibilità di espansione, \nperseveranza!!! è il momento di scrivere tutte le nuove idee che hai in mente! SOPRATTUTTO DI LORE"
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                "fresco fatto - mrmorte fatto - canerino fatto - pane fatto - nano fatto - manzone fatto (mostro di carne)"
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ]
+        ]
+    ]
+}

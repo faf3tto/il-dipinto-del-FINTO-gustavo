@@ -1,0 +1,11 @@
+import "./../box2d.wasm.js";
+import "./c3runtime.js";
+import "./plugins/ExitGames_PhotonRealtime/c3runtime/main.js";
+import "./plugins/Sparsha_FirebaseSDK/c3runtime/main.js";
+import "./plugins/Sparsha_FirebaseAuth/c3runtime/main.js";
+import "./plugins/Sparsha_FirebaseRealtimeDatabase/c3runtime/main.js";
+import "./plugins/Custom_LayerInteractivity/c3runtime/main.js";
+import "./plugins/ClaudeUI_VideoCanvas/c3runtime/main.js";
+import "./behaviors/skymen_RadialProgress/c3runtime/main.js";
+import "./behaviors/ClaudeUI_WindowScrollPanel/c3runtime/main.js";
+import "./objRefTable.js";
