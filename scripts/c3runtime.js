@@ -2122,7 +2122,6 @@ self.C3_ExpressionFuncs = [
 		},
 		() => "skin",
 		() => "char1",
-		() => "hand",
 		() => "face",
 		() => 3,
 		() => 4,
@@ -2145,7 +2144,6 @@ self.C3_ExpressionFuncs = [
 		() => "dance4",
 		() => "dance5",
 		() => "dance6",
-		() => 6,
 		() => "Players_RicevoSegnali",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
@@ -2165,6 +2163,8 @@ self.C3_ExpressionFuncs = [
 			const f2 = p._GetNode(2).GetBoundMethod();
 			return () => f0(f1(f2(), 2, "|"));
 		},
+		() => 6,
+		() => "hand",
 		() => 10,
 		() => -7,
 		() => 360,
