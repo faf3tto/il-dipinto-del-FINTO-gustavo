@@ -2101,10 +2101,7 @@ self.C3_ExpressionFuncs = [
 			return () => f0(f1());
 		},
 		() => "3D_All",
-		p => {
-			const v0 = p._GetNode(0).GetVar();
-			return () => (v0.GetValue()).toString();
-		},
+		() => 3,
 		p => {
 			const n0 = p._GetNode(0);
 			const n1 = p._GetNode(1);
@@ -2120,14 +2117,10 @@ self.C3_ExpressionFuncs = [
 			const n1 = p._GetNode(1);
 			return () => n0.ExpObject((n1.ExpObject() + ".Name"));
 		},
-		() => "skin",
-		() => "char1",
-		() => "face",
-		() => 3,
-		() => 4,
 		() => "PCRoom",
 		() => "host_disconnect",
 		() => "Players_InvioSegnali",
+		() => 57,
 		() => 0.04,
 		p => {
 			const n0 = p._GetNode(0);
@@ -2135,15 +2128,7 @@ self.C3_ExpressionFuncs = [
 			const n2 = p._GetNode(2);
 			return () => and((and(and(n0.ExpObject(), "|"), n1.ExpObject()) + "|"), n2.ExpObject());
 		},
-		() => "act",
-		() => "pick",
-		() => "healing",
-		() => "dance1",
-		() => "dance2",
-		() => "dance3",
-		() => "dance4",
-		() => "dance5",
-		() => "dance6",
+		() => 6,
 		() => "Players_RicevoSegnali",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
@@ -2163,8 +2148,6 @@ self.C3_ExpressionFuncs = [
 			const f2 = p._GetNode(2).GetBoundMethod();
 			return () => f0(f1(f2(), 2, "|"));
 		},
-		() => 6,
-		() => "hand",
 		() => 10,
 		() => -7,
 		() => 360,
@@ -2190,12 +2173,14 @@ self.C3_ExpressionFuncs = [
 		() => 19,
 		() => 4.2,
 		() => "Players_LocalModel",
+		() => "face",
 		p => {
 			const n0 = p._GetNode(0);
 			const f1 = p._GetNode(1).GetBoundMethod();
 			return () => n0.ExpObject(and(f1(), ".Number"));
 		},
 		() => "1",
+		() => "char1",
 		() => "2",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
@@ -2213,6 +2198,7 @@ self.C3_ExpressionFuncs = [
 			return () => f0("3D_All", "HUD_Inventory", n1.ExpObject(), n2.ExpObject(), 43);
 		},
 		() => 0.05,
+		() => "healing",
 		p => {
 			const n0 = p._GetNode(0);
 			const n1 = p._GetNode(1);
@@ -2244,6 +2230,7 @@ self.C3_ExpressionFuncs = [
 		},
 		() => "Brightness",
 		() => 0.08,
+		() => "hand",
 		p => {
 			const n0 = p._GetNode(0);
 			return () => (n0.ExpObject() - 24);
@@ -2362,6 +2349,7 @@ self.C3_ExpressionFuncs = [
 			const n2 = p._GetNode(2);
 			return () => and((and(and(n0.ExpObject(), "|"), n1.ExpObject()) + "|"), n2.ExpInstVar());
 		},
+		() => "pick",
 		p => {
 			const v0 = p._GetNode(0).GetVar();
 			return () => (v0.GetValue() - 7);
@@ -2484,6 +2472,7 @@ self.C3_ExpressionFuncs = [
 			const n0 = p._GetNode(0);
 			return () => (n0.ExpBehavior() + 42);
 		},
+		() => 4,
 		() => 0.01,
 		() => 0.02,
 		() => 13,
@@ -2526,6 +2515,7 @@ self.C3_ExpressionFuncs = [
 			const n1 = p._GetNode(1);
 			return () => and(and(n0.ExpObject(), "|"), n1.ExpObject());
 		},
+		() => "act",
 		() => "texture_Windows2",
 		() => "texture_Windows4",
 		() => "texture_Windows6",
@@ -3333,6 +3323,10 @@ self.C3_ExpressionFuncs = [
 		() => "Accedi con google se vuoi giocare multiplayer e ricrea",
 		() => "host",
 		() => "avvia",
+		p => {
+			const v0 = p._GetNode(0).GetVar();
+			return () => (v0.GetValue()).toString();
+		},
 		() => "desktop",
 		() => "Connesso!",
 		p => {
@@ -3377,6 +3371,7 @@ self.C3_ExpressionFuncs = [
 		() => "playername2",
 		() => "playername3",
 		() => "playername4",
+		() => "skin",
 		p => {
 			const v0 = p._GetNode(0).GetVar();
 			return () => and("playername", v0.GetValue());
