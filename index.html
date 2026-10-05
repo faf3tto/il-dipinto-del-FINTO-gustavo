@@ -1,49 +1,48 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="it">
 <head>
-    <meta charset="UTF-8">
-	<title>MPCR (mypcroom)</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover">
-	
-	<!-- Made with Construct, the game and app creator :: https://www.construct.net -->
-	<meta name="generator" content="Scirra Construct">
-
-
-
-	<link rel="manifest" href="appmanifest.json">
-	<link rel="apple-touch-icon" sizes="128x128" href="icons/icon-128.png">
-	<link rel="apple-touch-icon" sizes="256x256" href="icons/icon-256.png">
-	<link rel="apple-touch-icon" sizes="512x512" href="icons/icon-512.png">
-	<link rel="icon" type="image/png" href="icons/icon-512.png">
-
-	<link rel="stylesheet" href="style.css">
-
-
-
-</head> 
- 
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>My Pc Room</title>
+<style>
+  @font-face { font-family: 'bloodcrow'; src: url('fonts/bloodcrow.ttf'); }
+  @font-face { font-family: 'Storm Gust'; src: url('fonts/Storm Gust.ttf'); }
+  @font-face { font-family: 'Commodore Angled v1.2'; src: url('fonts/Commodore Angled v1.2.ttf'); }
+  @font-face { font-family: 'wicky-javick'; src: url('fonts/wicky-javick.bold.ttf'); }
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; font-family: bloodcrow, system-ui, sans-serif; user-select: none; }
+  canvas { display: block; width: 100%; height: 100%; }
+  #vignette { position: fixed; inset: 0; pointer-events: none; }
+  #hud { position: fixed; left: 0; top: 0; width: 1920px; height: 1080px; transform-origin: 0 0; pointer-events: none; overflow: hidden; }
+  .hud-layer { position: absolute; inset: 0; }
+  .spr { position: absolute; }
+  .spr > img { width: 100%; height: 100%; display: block; }
+  .spr.tinted > img { visibility: hidden; }
+  .spr.tinted { mask-size: 100% 100%; -webkit-mask-size: 100% 100%; }
+  .slot.selected > img { filter: brightness(1.5); }
+  /* inventario pieno: lo slot lampeggia di rosso due volte e trema leggermente */
+  .slot.denied { animation: slotShake .3s linear; }
+  .slot.denied > img { animation: slotRed .44s steps(1, end); }
+  @keyframes slotRed { 0% { filter: sepia(1) saturate(8) hue-rotate(-30deg); } 25% { filter: none; } 50% { filter: sepia(1) saturate(8) hue-rotate(-30deg); } 75%, 100% { filter: none; } }
+  @keyframes slotShake { 0%, 100% { transform: translate(0, 0); } 15% { transform: translate(-5px, 1px); } 30% { transform: translate(5px, -1px); }
+    45% { transform: translate(-4px, 0); } 60% { transform: translate(4px, 1px); } 75% { transform: translate(-2px, 0); } 90% { transform: translate(2px, 0); } }
+  .txt { position: absolute; display: flex; color: #fff; white-space: pre-line; line-height: 1.05; }
+  .txt.outline, [data-name="HUD_Inventory"] .txt { text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000, 0 3px 0 #000, 3px 0 0 #000, 0 -3px 0 #000, -3px 0 0 #000; }
+  .tiled { position: absolute; background-repeat: repeat; }
+  #start { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; flex-direction: column;
+    background: rgba(0,0,0,.75); color: #fff; cursor: pointer; text-align: center; gap: 8px; font-size: 22px; }
+  #start h2 { font-size: 64px; margin: 0; }
+  #start small { opacity: .7; font-family: system-ui, sans-serif; font-size: 14px; }
+  #loading { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; background: #000; color: #fff; font-size: 28px; }
+</style>
+  <script type="module" crossorigin src="./assets/index-BjXcAqUL.js"></script>
+</head>
 <body>
-
-	
-	<script src="init.js"></script>
-<script>
-if (location.protocol.substr(0, 4) === "file")
-{
-	alert("Web exports won't work until you upload them. (When running on the file: protocol, browsers block many features from working for security reasons.)");
-}
-</script>
-	
-	<noscript>
-		<div id="notSupportedWrap">
-			<h2 id="notSupportedTitle">This content requires JavaScript</h2>
-			<p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content.</p>
-		</div>
-	</noscript>
-	<script src="scripts/modernjscheck.js"></script>
-	<script src="scripts/supportcheck.js"></script>
-	<script src="scripts/offlineclient.js" type="module"></script>
-	<script src="scripts/main.js" type="module"></script>
-	<script src="scripts/register-sw.js" type="module"></script>
-
-</body> 
+<canvas id="c"></canvas>
+<div id="vignette"></div>
+<div id="hud"></div>
+<div id="start" style="display:none"><h2>My Pc Room</h2>
+  <div>Clicca per giocare</div>
+  <small>WASD muoversi · Shift correre · Ctrl furtivo · Spazio saltare · E interagire · rotella/1-9 inventario · click sinistro usa oggetto</small></div>
+<div id="loading">Caricamento…</div>
+</body>
 </html>

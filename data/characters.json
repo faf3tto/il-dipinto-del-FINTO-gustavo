@@ -1,0 +1,89 @@
+{
+ "bodies": [
+  "char_body1.jpg",
+  "char_body2.jpg",
+  "char_body3.jpg",
+  "char_body4.jpg"
+ ],
+ "faces": {
+  "Daviolino": {
+   "frames": [
+    "char_face_daviolino_0.png",
+    "char_face_daviolino_1.png"
+   ],
+   "speed": 5,
+   "loop": true
+  },
+  "Carciofo": {
+   "frames": [
+    "char_face_carciofo_0.png",
+    "char_face_carciofo_1.png"
+   ],
+   "speed": 5,
+   "loop": true
+  },
+  "Loading": {
+   "frames": [
+    "char_face_loading_0.png",
+    "char_face_loading_1.png"
+   ],
+   "speed": 5,
+   "loop": true
+  },
+  "Vincy": {
+   "frames": [
+    "char_face_vincy_0.png"
+   ],
+   "speed": 5,
+   "loop": false
+  },
+  "Robertomaligni": {
+   "frames": [
+    "char_face_robertomaligni_0.png",
+    "char_face_robertomaligni_1.png"
+   ],
+   "speed": 5,
+   "loop": true
+  },
+  "Cacitiello": {
+   "frames": [
+    "char_face_cacitiello_0.png",
+    "char_face_cacitiello_1.png"
+   ],
+   "speed": 5,
+   "loop": true
+  },
+  "Gigantio": {
+   "frames": [
+    "char_face_gigantio_0.png",
+    "char_face_gigantio_1.png"
+   ],
+   "speed": 5,
+   "loop": true
+  },
+  "Caterino": {
+   "frames": [
+    "char_face_caterino_0.png",
+    "char_face_caterino_1.png"
+   ],
+   "speed": 5,
+   "loop": true
+  },
+  "Bassottolo": {
+   "frames": [
+    "char_face_bassottolo_0.png",
+    "char_face_bassottolo_1.png"
+   ],
+   "speed": 5,
+   "loop": true
+  },
+  "Bergamaschio": {
+   "frames": [
+    "char_face_bergamaschio_0.png",
+    "char_face_bergamaschio_1.png"
+   ],
+   "speed": 5,
+   "loop": true
+  }
+ }
+}

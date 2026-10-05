@@ -1,0 +1,240 @@
+{
+ "items": [
+  {
+   "id": "money",
+   "name": "dollar'euro",
+   "desc": "(CLICK SINISTRO) per aggiungere i soldi al tuo portafoglio"
+  },
+  {
+   "id": "puzzle",
+   "name": "Pezzo di puzzle",
+   "desc": "aggiungi il pezzo del puzzle al dipinto con (E)"
+  },
+  {
+   "id": "crowbar",
+   "name": "Piede di porco",
+   "desc": "salo su una finestra con (E) per romperla e passare attraverso"
+  },
+  {
+   "id": "dixy",
+   "name": "Dixy fruttoso",
+   "desc": "Bevilo con (CLICK SINISTRO) per ricaricare la tua stamina del doppio"
+  },
+  {
+   "id": "patatine",
+   "name": "Patatine Stick",
+   "desc": "Mangiale con (CLICK SINISTRO) per ricaricare la tua stamina del triplo"
+  },
+  {
+   "id": "glue",
+   "name": "Colla vinvil",
+   "desc": "(CLICK SINISTRO) per posizionarlo e intrappolare i nemici a terra"
+  },
+  {
+   "id": "trappola",
+   "name": "Trappola per orsi",
+   "desc": "(CLICK SINISTRO) per posizionarla e intrappolare i nemici a terra per un lungo periodo di tempo"
+  },
+  {
+   "id": "caciocavallo",
+   "name": "Caciocavallo",
+   "desc": "(CLICK SINISTRO) per posizionarlo e attirare l'attenzione del nemico"
+  },
+  {
+   "id": "coccia",
+   "name": "Chiave coccia",
+   "desc": "(CLICK SINISTRO) su una serratura per romperla e sbloccare la porta"
+  },
+  {
+   "id": "camera",
+   "name": "Camera termorifrangente",
+   "desc": "(CLICK SINISTRO) per vedere oltre i muri per 20 secondi"
+  },
+  {
+   "id": "mantle",
+   "name": "Mantello dell'invisibilità",
+   "desc": "(CLICK SINISTRO) per diventare invisibile per 12 secondi"
+  },
+  {
+   "id": "portal1",
+   "name": "PortalGun",
+   "desc": "(CLICK SINISTRO) per generare un portale arancione, poi uno blu: con due portali nella mappa puoi spostarti dall'uno all'altro"
+  },
+  {
+   "id": "capricorno",
+   "name": "Capricorno Rilegato",
+   "desc": "usalo su un muro crepato con (E) per distruggerlo"
+  },
+  {
+   "id": "harpoon",
+   "name": "Arpione stantio",
+   "desc": "(CLICK SINISTRO) per agganciarti al primo muro davanti a te e sprintare in quella posizione"
+  },
+  {
+   "id": "panic",
+   "name": "Bottone del panico",
+   "desc": "(CLICK SINISTRO) per randomizzare le posizioni delle entità nemiche, un'ultima rischiosa salvezza"
+  },
+  {
+   "id": "dipintomobile",
+   "name": "Dipinto Mobile",
+   "desc": "(CLICK SINISTRO) per piazzare un trepiedi, un'altra posizione da cui poter continuare il dipinto"
+  }
+ ],
+ "enemies": [
+  {
+   "id": "Gustavo",
+   "model": "M_Gustavo",
+   "name": "Gustavo",
+   "desc": "Si muove a scatti: corre per un attimo e poi si ferma. Gira per la casa seguendo i suoi percorsi e, appena ti vede, ti insegue finché non riesci a seminarlo. Apre le porte, anche quelle reali, e non resiste al profumo del caciocavallo."
+  },
+  {
+   "id": "Fogliarello",
+   "model": "M_Fogliarello",
+   "name": "Fogliarello",
+   "desc": "Un cespuglio che si è stancato di stare fermo. Si muove a scatti con un fruscio di rami e insegue chiunque gli capiti a tiro. Anche lui si lascia distrarre dal caciocavallo."
+  },
+  {
+   "id": "Manzone",
+   "model": "M_Manzone",
+   "name": "Manzone",
+   "desc": "Un pezzo di carne molto arrabbiato che fa la guardia alla sua zona. Quando ti vede lancia un urlo e ti salta dietro a piccoli balzi velocissimi. Se ti perde di vista torna a casa, più lentamente."
+  },
+  {
+   "id": "Fresco",
+   "model": "M_Fresco",
+   "name": "Fresco",
+   "desc": "Una testa che gira su sé stessa e vaga per la casa. Attraversa le porte come un fantasma, diventando trasparente. Se ti tocca ti costringe a giocare alla sua slot machine."
+  },
+  {
+   "id": "MrMorte",
+   "model": "M_MrMorte",
+   "name": "Mr. Morte",
+   "desc": "Cammina lento e si ferma davanti alle porte ad aspettare. Se ti vede si mette a correre, molto più veloce di te. Apre le porte da solo: non pensare di essere al sicuro in una stanza."
+  },
+  {
+   "id": "Canerino",
+   "model": "M_Canerino",
+   "name": "Canerino",
+   "desc": "Una creaturina timida che scappa appena ti vede. Dopo un paio di secondi di fuga puoi acchiapparlo con (E): in cambio ti lascia un oggetto."
+  },
+  {
+   "id": "Pane",
+   "model": "M_Pane",
+   "name": "Pane",
+   "desc": "Spunta dal pavimento quando meno te lo aspetti, quando il quadro inizia a riempirsi. Se ti vede aspetta un attimo e poi ti si lancia addosso. Dopo un po' risprofonda da dove è venuto."
+  },
+  {
+   "id": "Nano",
+   "model": "M_Nano",
+   "name": "Nano",
+   "desc": "Sceglie uno dei giocatori e lo segue ovunque vada. Se gli resti vicino troppo a lungo, prima o poi colpisce: tienilo a distanza."
+  },
+  {
+   "id": "Pantaleone",
+   "model": "M_Pantaleone",
+   "name": "Pantaleone",
+   "desc": "Si nasconde sotto uno dei tappeti. Quando non lo guardi il tappeto si solleva e scivola verso di te; appena ti giri a guardarlo ricade a terra, immobile."
+  }
+ ],
+ "hints": {
+  "item": "Prendi in mano questo oggetto per scoprirlo.",
+  "enemy": "Avvicinati a questo nemico e guardalo per scoprirlo.",
+  "char": "Sbloccalo per scoprirlo.",
+  "sfida": "Sfida non ancora sbloccata."
+ },
+ "characters": [
+  {
+   "id": "Daviolino",
+   "name": "Daviolino",
+   "desc": "Il personaggio di partenza: nessuna abilità speciale e 4 slot di inventario.",
+   "hint": ""
+  },
+  {
+   "id": "Carciofo",
+   "name": "Carciofo",
+   "desc": "È letteralmente carciofo, solo che è messicano",
+   "hint": "Compralo nello shop per scoprirlo."
+  },
+  {
+   "id": "Robertomaligni",
+   "name": "Roberto Maligni",
+   "desc": "Roberto maligni, regista di professione e autore del film: la morte è bella\n\nè un personaggio molto vantaggioso, poichè dispone di rapidità, ma ahimè solo di 2 slot inventario",
+   "hint": "Compralo nello shop per scoprirlo."
+  },
+  {
+   "id": "Cacitiello",
+   "name": "Cacitiello",
+   "desc": "Gli piace tanto tanto il caciocavallo, infatti con la sua benedizione del caciocavallo, potrebbe succedere che riceverà un cacio in omaggio dallo spirito caciotto",
+   "hint": "Compralo nello shop per scoprirlo."
+  },
+  {
+   "id": "Gigantio",
+   "name": "Gigantio",
+   "desc": "È un brutto ingordo bastardo con 5 slot di inventario, anche se leggermente più lento",
+   "hint": "Compralo nello shop per scoprirlo."
+  },
+  {
+   "id": "Bassottolo",
+   "name": "Bassottolo",
+   "desc": "Va facilmente in panico, infatti con i suoi attacchi d'asma, può scatenare l'effetto del panico, randomizza la posizione di tutti i nemici ogni volta",
+   "hint": "Compralo nello shop per scoprirlo."
+  },
+  {
+   "id": "Caterino",
+   "name": "Caterino",
+   "desc": "Parte la partita con 5 monete di debito, ma ogni pezzo di puzzle che inserisce nel quadro gli frutta una moneta.",
+   "hint": "Vinci una partita per sbloccarlo."
+  },
+  {
+   "id": "Bergamaschio",
+   "name": "Bergamaschio",
+   "desc": "Camminando è lentissimo, ma quando corre non lo ferma nessuno. Parte con un Dixy e ne riceve un altro a ogni pezzo di puzzle inserito.",
+   "hint": "Rompi 4 muri crepati col capricorno in una sola partita per liberarlo."
+  }
+ ],
+ "sfide": [
+  {
+   "id": "dipintore",
+   "name": "Il dipintore",
+   "icon": "public/sprites/item-dipintogustavo-000.png",
+   "desc": "I pezzi di puzzle non si raccolgono. Nella stanza del quadro c'è il dipinto di Gustavo: prendilo in mano (vai a metà velocità e non puoi cambiare slot) e clicca i pezzi per aggiungerli. Puoi posarlo e riprenderlo quando vuoi. Si vince col quadro completo."
+  },
+  {
+   "id": "giocatore",
+   "name": "Il grande giocatore",
+   "icon": "public/sprites/ht_slotgraphics-1-000.png",
+   "desc": "Dai generatori escono solo pezzi di puzzle e monete. Al posto dei distributori ci sono le slot machine: una moneta a giro, con tre simboli uguali vinci un oggetto. Tre Fresco girano per la casa: toccarli apre la roulette, dove punti le tue monete. Si vince col quadro completo."
+  },
+  {
+   "id": "giardiniere",
+   "name": "Il giardiniere focoso",
+   "icon": "public/sprites/item-legna-000.png",
+   "desc": "Si gioca nel capitolo 2. Al posto dei pezzi di puzzle ci sono le forbici: con le forbici tagli un albero e ottieni legna, da portare al falò nella stanza del quadro. Ogni ciocco conta come un pezzo. Con 12 ciocchi il fuoco si accende e vinci."
+  },
+  {
+   "id": "pantaleonio",
+   "name": "Pantaleonio il superbo",
+   "icon": "tools/ency_portraits/M_Pantaleone.png",
+   "desc": "Pantaleone non c'è, ma ogni 2 pezzi di puzzle arriva un Gustavo in più. Puoi infilarti sotto i tappeti: dalla piantina della casa scegli da quale tappeto sbucare fuori. Si vince col quadro completo."
+  },
+  {
+   "id": "iogustav",
+   "name": "IoGustav",
+   "icon": "tools/ency_portraits/M_Gustavo.png",
+   "desc": "Sei Gustavo: ti muovi a scatti come lui e diventi più veloce a ogni pezzo inserito, ma puoi prendere e usare gli oggetti. Al posto dei Gustavo c'è il tuo personaggio che ti dà la caccia, e gli altri nemici possono ancora ucciderti. Si vince col quadro completo."
+  },
+  {
+   "id": "sfida1",
+   "name": "Sfida dell'inversità",
+   "icon": "public/pc/img/appicon-sfide-000.png",
+   "desc": "La sfida originale: si parte dall'altro capo della casa, vicino all'ascensore, e bisogna arrivare a un'uscita."
+  },
+  {
+   "id": "sfida2",
+   "name": "Sfida dell'alternatività",
+   "icon": "public/pc/img/appicon-sfide-000.png",
+   "desc": "La sfida originale: una versione alternativa della casa del capitolo 1. Bisogna arrivare a un'uscita."
+  }
+ ]
+}

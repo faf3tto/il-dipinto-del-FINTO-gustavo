@@ -1,0 +1,1 @@
+{"name": "fontana", "lo": [-0.5, -0.4625999927520752, -0.5], "hi": [0.5, 0.464462012052536, 0.5], "meshes": [{"name": "mesh_0", "color": [1, 1, 1, 1], "transparent": false, "alphaTest": 0, "skinned": false, "tex": "m_fontana_0.jpg", "cutout": false, "pos": [0, 35088], "nor": [35088, 35088], "uv": [70176, 23392], "idx": [93568, 39912]}], "animations": []}

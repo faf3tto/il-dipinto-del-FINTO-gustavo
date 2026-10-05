@@ -1,0 +1,1 @@
+{"name": "papers", "lo": [-1.0, -0.0010000001639127731, -1.0], "hi": [1.0, -0.0010000001639127731, 1.0], "meshes": [{"name": "papers", "color": [1, 1, 1, 1], "transparent": true, "alphaTest": 0, "skinned": false, "tex": "m_papers_0.png", "cutout": true, "pos": [0, 48], "nor": [48, 48], "uv": [96, 32], "idx": [128, 24]}], "animations": []}

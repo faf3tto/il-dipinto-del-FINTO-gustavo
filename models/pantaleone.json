@@ -1,0 +1,1 @@
+{"name": "pantaleone", "lo": [-0.5, -0.5, -0.4570310115814209], "hi": [0.5, 0.5, 0.47070300579071045], "meshes": [{"name": "mesh_0", "color": [1, 1, 1, 1], "transparent": false, "alphaTest": 0, "skinned": false, "tex": "m_pantaleone_0.jpg", "cutout": false, "pos": [0, 39696], "nor": [39696, 39696], "uv": [79392, 26464], "idx": [105856, 33624]}], "animations": []}
